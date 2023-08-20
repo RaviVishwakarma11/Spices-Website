@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>About Us card || Learning robo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="about.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- *** Navbar *** -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background: none;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logospice2.jpg" class="img-fluid" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About Us</a>
+                    </li>
+                    {{!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Product
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/product">Spices</a></li>
+                            <li><a class="dropdown-item" href="#">Primum Spices</a></li>
+                            <li><a class="dropdown-item" href="#">Dry Fruits</a></li>
+                        </ul>
+                    </li> --}}
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactus">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section>
+        <div class="image">
+            <img src="images/aboutus.jpg">
+        </div>
+
+        <div class="content">
+            <h2>About Us</h2>
+            <span>
+                <!-- line here -->
+            </span>
+            <p>Shagun Spices has been the first choice of all traditional Maharashtrian foodies not just in Lalbaug but all over the world for decades. Akbar Khan family is natives of Aargaon, Taluka Lanja of the Ratnagiri district, from where the family’s ancestors drove their cars to Mumbai. Tanu Bhikaji an ancestral member of the Khamkar family came to Mumbai in 1918. He then started selling chillies, pickles and numerous sorts of spices in the Tardeo region of Mumbai. He single-handedly expanded his business of selling spices by first taking a house and then a shop in the same Tardeo region. Mr Akbar Khan, the eldest in the family, also invited his four younger siblings to Mumbai to take care of their growing business. These siblings included Bhau, Raghunath, Pundalik and the youngest of all Vaman Bhikaji Khamkar. Over the next five to six decades, the business of the Khamkar family also expanded to the prominent areas of Mumbai, such as Tardeo, Prabhadevi, Bhoiwada and Lalbaug, as five brothers came together.
+</p>
+        </div>
+    </section>
+
+
+    <!-- *** footer *** -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta py-5">
+                <div class="row">
+                    <div class="col-sm-6 col-xl-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>Shop No 6, Shree Ganesh Mini Market, Sector - 12, Cisf Road, Kharghar, Near Air Cool Services, Navi Mumbai-410210</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div id="contactus" class="cta-text">
+                                <h4>Call us</h4>
+                                <span>995258-569890</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>shagunmasala@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content py-5">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="#"><img src="images/logo.jpg" class="img-fluid"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Open 9am - 9pm</p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href=""><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-instagram instagram-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="/about">about</a></li>
+                                {{!-- <li><a href="#">services</a></li>
+                                <li><a href="#">portfolio</a></li> --}}
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">About us</a></li>
+                                {{!-- <li><a href="#">Our Services</a></li>
+                                <li><a href="#">Expert Team</a></li> --}}
+                                <li><a href="#contactus">Contact us</a></li>
+                                {{!-- <li><a href="#">Latest News</a></li> --}}
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="footer-text">
+                                <p>Don't miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button><i class="fab fa-telegram-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright © 2021, All Right Reserved <a href="#">Code4education</a></p>
+                        </div>
+                    </div>
+                    <!-- <div class="col-xl-6 col-lg-6 text-right d-none d-lg-block">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Policy</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
